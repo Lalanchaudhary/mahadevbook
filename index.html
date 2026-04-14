@@ -43,20 +43,37 @@
         })(window, document, 'script', 'dataLayer', 'GTM-5XX2ZZVK');</script>
     <!-- End Google Tag Manager -->
 
+    <script>
+        function gtag_report_conversion(url) {
+            var callback = function () {
+                if (typeof (url) != 'undefined') {
+                    window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-18084096592/c5SvCL3p6ZscENDUla9D',
+                'event_callback': callback
+            });
+            return false;
+        }
+    </script>
+
 </head>
 
 <body>
     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5XX2ZZVK"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5XX2ZZVK" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div class="bdy">
-        <a href="https://wa.me/918521117983?text=Hii..%20I%20Want%20Know%20more!" class="whatsapp-top-right"
-            target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/918521117983?text=Hii..%20I%20Want%20Know%20more!"
+            onclick="return gtag_report_conversion('https://wa.me/918521117983?text=Hii..%20I%20Want%20Know%20more!');"
+            class="whatsapp-top-right">
             <img src="logo-whatsapp.png" alt="WhatsApp" class="whatsapp-top-right-icon">
             <span>WhatsApp</span>
         </a>
-        <a href="https://wa.me/918521117983?text=Hii..%20I%20Want%20Know%20more!">
+        <a href="https://wa.me/918521117983?text=Hii..%20I%20Want%20Know%20more!"
+            onclick="return gtag_report_conversion('https://wa.me/918521117983?text=Hii..%20I%20Want%20Know%20more!');">
             <div class="full-body">
                 <div class="inner">
                     <img src="maahadeva.jpg" alt="mahadeva">
@@ -66,7 +83,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <div class="btn">
             <img src="logo-whatsapp.png" height="70px" width="70px" alt="WhatsApp logo">
-            <a href="https://wa.me/918521117983?text=Hii..%20I%20Want%20Know%20more!">
+            <a href="https://wa.me/918521117983?text=Hii..%20I%20Want%20Know%20more!"
+                onclick="return gtag_report_conversion('https://wa.me/918521117983?text=Hii..%20I%20Want%20Know%20more!');">
                 <div class="btn-click">
                     <h2>Whatsapp</h2>
                     <p>Click to chat</p>
